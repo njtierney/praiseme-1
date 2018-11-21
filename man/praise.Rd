@@ -13,6 +13,6 @@ praise(name = "Saskia")
 Let's dole out praise
 }
 \examples{
-praise("Robbie")
 praise("Saskia")
+praise("Robbie")
 }
