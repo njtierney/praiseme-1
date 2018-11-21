@@ -1,5 +1,5 @@
 Package: praiseme
-Title: Gives Praise to Nice People
+Title: Gives Praise to Really Nice People
 Version: 0.0.0.9000
 Authors@R: person("Saskia", "Freytag", email = "sas.freytag@gmail.com", role = c("aut", "cre"))
 Description: Praising is essential.
