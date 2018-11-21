@@ -1,0 +1,40 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+# praiseme
+
+The goal of praiseme is to deliver praise to nice people.
+
+## Installation
+
+You can install the released version of praiseme from [github](https://github.com/SaskiaFreytag/praiseme) with:
+
+``` {r install-instruction, eval=FALSE}
+devtools::install_github("SaskiaFreytag/praiseme")
+```
+
+## Example
+
+This is a basic example which shows you how to praise a nice person:
+
+```{r example1}
+library(praiseme)
+praise("Saskia")
+```
+
+This is what happens if you try to praise a not nice person:
+
+```{r example2}
+praise("Robbie")
+```
